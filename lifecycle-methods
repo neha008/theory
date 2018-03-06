@@ -1,0 +1,11 @@
+1. lifecycle methods can be added to our class based components but not to our stateless functional components
+
+2.componentDidMount()
+    a.componentDidMount() fires when the component first gets mounted to the dom
+
+3.componentDidUpdate()
+   a. componentDidUpdate() is going to fire after the component updates
+   b. it is really useful when it comes to fiuring out exactly when your components data has changed
+
+4. componentWillUnmount()
+    a. componentWillUnmount() fires just before component goes away

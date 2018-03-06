@@ -1,0 +1,8 @@
+1. If we make any changes in webpack.config.js we need to restart your build even we are using watch.
+   Watch is looking only for changes in the application source. Webpack dev server is a development server like 
+   live-server but comes with some nice features specific to webpack.It is going to speed up the  process between 
+   changing our application files and actually seeing those changes reflected in the browser.
+
+2. contentBase (DevServer property) lets us tell the DevServer  where it can find our public files.
+
+3. presets are just a collection of plugins

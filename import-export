@@ -1,0 +1,15 @@
+1. there are  two parts to using es6 import and export with webpack
+    a. ability to load files you wrote
+    b. ability to load third party like React or ReactDOM
+
+2. all the files in our webpack application maintains their own local scope.
+
+3. there are two types of exports
+    a. default exports
+    b. named exports 
+
+4. for default import, import it  before brackets 
+
+5. named exports can be many, but there can only be one default export
+
+6. for default export naming is not important bcoz you are just grabbibg the default export

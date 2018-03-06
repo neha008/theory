@@ -1,0 +1,19 @@
+1.component state allow our components to manage some data
+
+2. steps:
+     1.setup default state object
+     2.component is rendered with default state values *   (* here means behind the scenes we dont have to do it manually)
+     3.change state based on event
+     4.component rerendered using new state values *
+     5.start again at 3
+
+3. our state is just an object.it is a set of key value pairs
+
+4. call to this.setState() is asynchronous. this.setState() allow us to manipulate the state object.
+
+5. a component cannot change its own props ,new props values can get passed down from the parent and those will 
+   trigger a re-render in the child
+
+6. WE SHOULD HAVE state condensed into just a few places
+
+7. passing a function to setState is preffered way than passing an object

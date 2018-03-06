@@ -1,0 +1,15 @@
+1. js library to build UI.
+2. Component Based Architecture (not webpages).
+3. Used to create single page application(SPA) (only one HTML page).
+4. very fast because of virtual DOM.
+5. lifecycle method - render() - compulsory -(code that defines appearance of components).
+6. All react components should have single responsibility principle.
+
+1. Browser does not understand the language in react js thats why we do transpilation using vanilla JS.
+2. In react JS there is hierarchial tree relationship that means no component is isolated.
+3. React is a front end JavaScript library developed by Facebook in 2011. 
+4. It follows the component based approach which helps in building reusable UI components. 
+5. It is used for developing complex and interactive web and mobile UI.
+6. It uses the virtual DOM instead of the real DOM.
+7. It uses server-side rendering.
+8. It follows uni-directional data flow or data binding.

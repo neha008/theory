@@ -1,0 +1,26 @@
+1. using uppercase first letter for react component is mandatory,using lower case first letter will not 
+   fail but its just not going to render our component
+
+2. without extending React.Component IndecisionApp is a es6 class,after extending its a component
+
+3. Component is a class itself
+
+4. React component require one method to be defined that is render()
+
+5.React component are reusable
+
+6. render() returns jsx we want to show in page
+
+7. component can render jsx which means it can render other components
+
+8. components accept arbitrary inputs(called "props") and return React element describing what should
+   appear on screen.
+
+9. elements can also represent user-defined components.
+
+10. when react sees an element representing a user-defined component ,it passes JSX attributes to this component
+    as a single object,we call this object props.
+
+11. React components allow us to break up our application into small reusable chunks.Each little component has its 
+    own set of JSX that it renders to the screen.It can handle events for those JSX elements and allows us to 
+    create these little self-contained units. 

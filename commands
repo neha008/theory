@@ -1,0 +1,15 @@
+babel src/app.js --out-file public/scripts/app.js --presets=env,react --watch
+
+yarn add babel-plugin-transform-class-properties@6.24.1
+yarn add react-modal@2.2.2
+yarn dev-server
+
+for css
+   a. yarn add style-loader@0.18.2 css-loader@0.28.4
+   b. yarn add sass-loader@6.0.6 node-sass@4.5.3
+   c. yarn add normalize.css@7.0.0
+
+for react router
+   a. yarn add react-router                 //(it includes everything) 
+   b. yarn add react-router-dom             //(for web app)
+   c. yarn add react-router-native          //(for native app)

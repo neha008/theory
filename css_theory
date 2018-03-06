@@ -1,0 +1,9 @@
+1. we will make scss and convert it to css as browser does not understand scss.
+2. sass-lang.com
+3. node-sass for converting scss to css
+4. when we have our entry point we call that somename.scss , when we are creating a seperate file that's
+   going to get loaded in though it's known as partial and partial start with undescore.
+5. css reset just makes sure that all browsers are starting from the same place so each browser has their own set 
+    of default styles.
+6. normalize css to make sure all browser start from exact same place.(css reset)
+7. sass reference functions

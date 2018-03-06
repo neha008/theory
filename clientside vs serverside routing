@@ -1,0 +1,14 @@
+SERVER SIDE                                                                  CLIENT SIDE
+
+1. server side routing is the more  
+traditional approach where we define 
+the routes on the server.                                                    1.  client side routing is the more 
+                                                                                modern approach where we use 
+                                                                                client side javascript to 
+                                                                                dynaimacally change what gets 
+                                                                                shown to the screen.
+
+
+ 
+                                                                            
+               

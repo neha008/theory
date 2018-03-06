@@ -1,0 +1,7 @@
+1. React uses virtual DOM which is JS object.This will improve app performance since JS virtual DOM os faster
+   than the regular DOM.
+2. React uses some virtual DOM algorithm in JS to determine the minimal number of changes that need to be made
+   in order to correctly render the new application.
+3. If a single piece of our application changes , we can re-render the application , updating it without 
+   worring about slowing down the user or wasting a ton of resources.
+   

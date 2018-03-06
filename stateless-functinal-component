@@ -1,0 +1,16 @@
+1.stateless functional component dont manage state but they do still allow for props
+2.stateless functional component do not have access to 'this'
+3.stateless functional component are faster than our class based component
+
+example:
+
+const User = (props) =>{
+    return{
+        <div>
+            <p>Name : {props.name}</p>
+            <p>age : {props.age} </p>
+        </div>
+    }
+}
+
+ReactDOM.render(<User namw='neha' age = {24} />,document.getElementById('app'));

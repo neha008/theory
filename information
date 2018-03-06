@@ -1,0 +1,65 @@
+1. a.options :prevState.options.concat([option])   
+   b.options: prevState.options.concat(option)
+        a and b both have same effect
+
+2.  prevState.options.push(option);  
+           directly manipulating the state object is not what we want to do we dont want to effect prevState
+    so we used
+      prevState.options.concat(option)
+          concat method creats a new array withot effecting the previos one
+
+3. a.error : error 
+   b.error
+   if we have property and value same in return we can use b in place of option a
+                (we can use shorthand)
+
+4.<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
+ <button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
+
+  The above two lines are equivalent, and use arrow functions and Function.prototype.bind respectively.
+
+5.stateless functional component are so fast:
+   a.they dont have to manage any state.
+   b.they dont have to manage lifecycle methods
+
+6 .It is not good to install modules globally:
+   a.our package.json file no longer defines these global dependencies
+   b.if we have 5 or 6 projects ,all of those projects have to use same version of each of these modules
+   c.we have to type out the entire command in the terminal
+
+7.  
+        this.setState(() => {
+          return {
+                 error
+             };
+         })
+
+         --  using arrow function shorthand property we can do this in one  --
+
+
+        this.setState(() => ({ error }));
+
+8.  return {
+    error : error
+     }
+      if both propperty and value same we can use shorthand
+
+      return{
+            error
+      }
+               
+9. bydefault words dontbreak.
+
+10. There are two globals we get from our two script tags.We get a global react and a global reactDOM.
+
+11. 'this' is a reference to the cuurent instance of the component and react gives us access to our 'props'
+     on an object (this.props)
+
+12. When we creat a instance of react components we can also choose to pass some data into it.
+    That data looks very much like HTML attributes but it is really just a set of key value pairs
+    where the key is always some sort of string and the value can be anything we like whether 
+    it is a string , array , number or any other type in JS. when we pass data into a component  
+    we can use that data inside of that component itself. This gives us a way to set up one wa communication.
+
+13. Regular functions have undefined for 'this' by default.
+          

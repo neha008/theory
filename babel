@@ -1,0 +1,13 @@
+1. babeljs.io/docs/plugins/
+
+2. A loader lets you customize  the bahavior of webpack when it loads a given file.So any time webpack
+    sees a js file we can do something with that file.
+
+3. babel-cli allows you to run babel from command line.
+
+4. babel-core module allows you to run babel from tools like webpack.
+
+5. babel-loader is a webpack plugin. It is going to allow us to teach webpack how to run babel when webpack 
+    sees certain files.
+
+6. babeljs.io/docs/plugins/

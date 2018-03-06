@@ -1,0 +1,7 @@
+1. Data flow - unidirectional - parent to child.
+2. three ways to represent data in react
+    a. props
+    b. state
+    c. refs
+3. Child always access data as props data.It does not concern him whether parent is sending prop or state data.
+4. State data is private to component.

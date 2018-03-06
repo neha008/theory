@@ -1,0 +1,25 @@
+1.with arrow function we have access to short hand syntax
+  
+   a.const num = ()=> 12+45 
+   b.const a = ()=> [1,2,3]
+
+2.but what if we need to return an object , object needs curly braces like function so there is confusion if this an 
+  object or function body.
+  well 
+      const a = ()=> {} //here arrow function treats this as function body,it will return nothing and we will get 
+                          undefined back
+to make this object
+        const a = ()=> ({}) //this will return an empty object
+
+3.arguments objects - no longer bound with arrow function(es6) but they are present in es5
+
+4.es6 (arrow functions) always anonymous while es5 functions can have name
+
+5.this keyword - no longer bound with arrow function(es6) but they are present in es5
+
+6.with es6 arrow functions your functions no longer bind their own this value instead they 
+  just use the value of the context they were created in
+
+7. arrow function dont have their own this binding.Instead they just use whatever this binding is in the parent
+   scope and for classes that is the class instance. 
+

@@ -1,0 +1,2 @@
+1. forEach just lets you do something with each item like printing to the screen, but when you use map 
+   you can actually transform each item getting a new array back.

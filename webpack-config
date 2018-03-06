@@ -1,0 +1,2 @@
+1.loader allow us to have one loader(like for babel we have babel-loader)
+2.use allow us to have array of loaders(like in case of css we have style-loader and css-loader)

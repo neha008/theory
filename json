@@ -1,0 +1,8 @@
+1. local storage only work with string data but we want to use others like object,array etc so we use JSON for 
+   conversion
+
+2. JSON is just a string representation of javascript object or an array. It stands for javascript object notation.
+
+3. JSON.stringify is going to take a regular javascript object and get the string representation
+
+4. JSON.parse is going to take string representation and return a true javascript object.

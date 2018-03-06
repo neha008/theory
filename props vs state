@@ -1,0 +1,7 @@
+props                                                   state
+1.an object                                             1.an object
+2.can be used when rendering                            2.can be used when rendering                
+3.changes (from above) cause re-renders                 3.changes cause re-renders
+4.comes from above                                      4.defined in component itself
+5.can't be changed by component itself                  5.can be changed by component itself
+6.props data does not change overtime(static data)      6.state data changes overtime.

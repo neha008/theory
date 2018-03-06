@@ -1,0 +1,11 @@
+1. var nameVar = "neha";
+    nameVar = "shally";//(reassign valid for var)
+    var nameVar = "hii";//(redefine valid for var )
+
+2.nameLet = "julie";//(reassign valid for let)
+  let nameLet ="bnb";//(redefine invalid for let)
+
+3. nameConst = "lilly";//(reassign invalid for const )
+const nameConst  ="bnb";//(redefine invalid for const)
+
+for futher differences (see es6-let-const.js)

@@ -1,0 +1,28 @@
+app.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import  subtract, {add , square} from './utils.js'   //for default import, import it  before brackets 
+ console.log(square(4));
+ console.log(add(34,89));
+ console.log(subtract(99,89));
+
+
+utis.js
+
+there are two ways we can export module
+1.
+const square =(x)=> x*x; 
+const add =(a,b)=> a+b; 
+const subtract =(a,b)=> a-b; 
+export {square , add , subtract as dafault};
+
+2.
+export const square =(x)=> x*x; 
+export const add =(a,b)=> a+b; 
+const subtract =(a,b)=> a-b;    //for default exports
+export default subtract;
+
+//for default exports one mre way is there.it can be done in one line also
+export default (a,b)=> a-b; // for default exports

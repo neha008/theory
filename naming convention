@@ -1,0 +1,2 @@
+1. HTML tags are always using lowercase tag names , while React components starts with uppercase.
+2. We should use className and htmlFor as XML attributes instead of class and for.

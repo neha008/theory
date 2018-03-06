@@ -1,0 +1,6 @@
+1. The goal is to use classes to reuse code.
+2. Inside of class methods 'this' refers to class instance.
+3. In es6 we not only have access to the class syntax we also have access to function defaults.
+4. template strings - es6 feature (` `)
+5. Unlike constructor (for unique features) which has a specific name and gets implicitly called
+   when we make a new instance , the method (for common features) is going to have a name we pick.

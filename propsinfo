@@ -1,0 +1,5 @@
+1.props flow in one direction (paremt to child)
+2.pass data in when we initilize an instance of our components(like <header name = 'neha' />),
+  that data (here name) is known as props
+3.inside render 'this' is a reference to the current instance of the copmponent it is in and react gives us 
+  access to our props on an object that is this.props

@@ -1,0 +1,12 @@
+1. webpack is an asset bundler.so its going to allow us to take all the stuffs that makes up our application and 
+   combine that with stuff from third party libraries and spin out a single javascript file.
+
+2. it allows us to organise our javascript.So when we run our app through webpack we are going to get 
+   a single javascript file back and that file what's called the bundle is going to contain everything
+   our application needs to run.It is going to contain our dependencies.
+   it is also going to contain our application code.
+
+3. node modules folder contain third party dependencies like react or react-dom
+
+4.webpack.config.js file should be in the root of your folder.It is a node script.So we have access to everything 
+ we would have access to inside of nodejs application.

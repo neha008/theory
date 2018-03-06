@@ -1,0 +1,12 @@
+MOUNTING                                 UPDATING                              UNMOUNTING
+
+first time loader                     componentWillReceiveProps()              componentWillUnmount()
+i.e. constructor
+
+componentWillMount()                  shouldComponentUpdate()
+
+render()                              componentWillUpdate()
+
+componentDidMount()                    render()
+
+                                       componentDidUpdate()
